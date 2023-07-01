@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 72px;
+    margin: 3px 6px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+
+#navbar ul li {
+    margin: 3px 4px;
+    font-size: 1.8rem;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    justify-content: center;
+    padding: 3px 22px;
+
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+:root {
+    --navbar-height: 34px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 403px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url('foodbac.png') no-repeat center center/cover;
+
+    position: absolute;
+    height: 610px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree serif', serif;
+    font-size: 3rem;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.h.primary {
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree serif', serif;
+
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #5c3a3a;
+    color: white;
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.prime {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 125px;
+    font-family: 'Bree serif', cursive;
+}
+.prime1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 50px;
+    font-family: 'Bree serif', cursive;
+}
+
+.centre{
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#service {
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#service .box {
+    border: 2px solid brown;
+    padding: 49px 32px;
+    margin: 10px 55px;
+    border-radius: 25px;
+    background-color: sandybrown;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+
+.box img {
+    height: 160px;
+
+    display: block;
+    margin: auto;
+    width: 200px;
+
+}
+
+.box p {
+    text-align: center;
+    display:flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+.h-primary {
+
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+
+    font-family: 'Bree serif', cursive;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 19px 650px;
+    justify-content: center;
+}
